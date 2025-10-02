@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.limey.adastra_autolanding.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "adastra_autolanding.refmap.json",
+  "mixins": [
+    "AAAL_LanderLogicMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
